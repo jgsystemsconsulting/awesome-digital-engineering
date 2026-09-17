@@ -1,0 +1,11 @@
+# URLs that are live in a browser but return 403/anti-scrape to automated
+# checkers (CDN/WAF bot-blocks), plus access-controlled URLs the family
+# standard requires in the README. Add a line (regex) only with a documented
+# reason below it. Keep this list short: every entry is a hole in the
+# freshness guarantee. Re-verify during the quarterly sweep.
+
+# Hub FAMILY.md is private until the family public release. The README carries
+# the family pointer as an absolute URL (family standard, spec requirement);
+# that URL 404s to unauthenticated checkers and to this repo's CI token.
+# Remove this line when awesome-mbse goes public.
+https://github\.com/jgsystemsconsulting/awesome-mbse/blob/main/FAMILY\.md

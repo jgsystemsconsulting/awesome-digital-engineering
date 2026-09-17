@@ -1,0 +1,55 @@
+name: link-check (PR)
+
+# Gate on contributions: a dead new link fails the PR, and the README must
+# stay awesome-lint conformant. See spec §5.1.
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - ".lycheeignore"
+      - ".github/workflows/link-check-pr.yml"
+
+concurrency:
+  group: link-check-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links and in-doc anchors
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # master w/ nested-tarball install fix (>v2.8.0)
+        with:
+          # --include-fragments=anchor-only validates the ToC and the Model
+          # Gallery's #slug back-links against the <a id> anchors (spec §5.1, §7.7).
+          # token is passed so the many github.com links are checked authenticated,
+          # avoiding the 60 req/hr anonymous rate limit that reports live links as dead.
+          lycheeVersion: v0.24.2
+          args: >-
+            --include-fragments=anchor-only
+            --max-concurrency 4
+            --accept 200..=299,429
+            --no-progress
+            README.md
+          fail: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+  # ToC is hand-maintained (flat, top-level only) to stay awesome-lint clean — doctoc's
+  # generated ToC includes the title/self-reference which awesome-lint rejects. ToC
+  # anchor integrity is enforced by lychee --include-fragments=anchor-only (the lychee
+  # job above), plus the PR-template checklist. See spec §7.8 fallback option (b).
+
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Awesome-list manifest conformance
+        run: npx -y awesome-lint
