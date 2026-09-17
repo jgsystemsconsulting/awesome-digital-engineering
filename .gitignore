@@ -14,3 +14,6 @@ lychee/
 # Node (used only transiently for doctoc/awesome-lint via npx)
 node_modules/
 release-notes.generated.md
+
+# Maintainer-only (RR-B-35)
+scripts/add_headers.py
