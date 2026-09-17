@@ -32,3 +32,10 @@ installable agent plugin. In-host marketplace rows are deliberate N/A.
 | Channel | Artifact | Status | Decision / reason | Date |
 |---|---|---|---|---|
 | awesome-mcp-servers / Glama / Smithery / PulseMCP | n/a | deliberate N/A | Not an MCP server product. | 2026-09-17 |
+
+## Process notes
+
+| Topic | Status | Decision / reason | Date |
+|---|---|---|---|
+| RR-B-27 squash-merge authors | deferred | GitHub squash merges attribute to the merging account email; force-push rewrite blocked by RR-B-23 protection. Accept until solo merge uses noreply identity in gh settings, or lift force-push briefly for a one-shot history rewrite. | 2026-09-17 |
+| RR-B-01 LICENSE org name | submitted | Canonical CC0 body + appendix naming JG Systems Consulting Ltd (PR #9). | 2026-09-17 |
