@@ -10,12 +10,13 @@ Maintained by [JG Systems Consulting Ltd.](https://github.com/jgsystemsconsultin
 [Editorial neutrality](CONTRIBUTING.md#7-editorial-neutrality).
 
 initial seed; growth in progress. Every entry below passed a live link check on launch day.
-Suggest more via issues or pull requests. Clone with
+**Install:** none required; clone with
 `git clone https://github.com/jgsystemsconsulting/awesome-digital-engineering.git` or browse
-on GitHub. Feedback: Suggest a resource, Bug report, and Improvement forms; security via
-private advisory (`SECURITY.md`). List text is CC0-1.0 (`LICENSE`). Linked works keep their
-own terms. For JG Systems product licensing enquiries (not this list), see
-https://labs.jgsystemsconsulting.com/licensing.html.
+on GitHub. **Usage:** open a Contents section, prefer primary sources, and follow
+CONTRIBUTING for new entries. **Support:** Suggest a resource, Bug report, and Improvement
+forms; security via private advisory (`SECURITY.md`). List text is CC0-1.0 (`LICENSE`).
+Linked works keep their own terms. For JG Systems product licensing enquiries (not this list),
+see https://labs.jgsystemsconsulting.com/licensing.html.
 
 ## Contents
 
