@@ -12,7 +12,7 @@ Maintained by [JG Systems Consulting Ltd.](https://github.com/jgsystemsconsultin
 See [Editorial neutrality](CONTRIBUTING.md#7-editorial-neutrality).
 
 initial seed; growth in progress. Every entry below passed a live link check on launch
-day. Suggest more via issues or PRs.
+day. Suggest more via issues or pull requests.
 
 ## Contents
 
