@@ -13,3 +13,4 @@ lychee/
 
 # Node (used only transiently for doctoc/awesome-lint via npx)
 node_modules/
+release-notes.generated.md

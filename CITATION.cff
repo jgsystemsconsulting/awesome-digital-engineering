@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this list in your work, please cite it using this metadata."
+title: "Awesome Digital Engineering"
+version: "0.1.0"
+date-released: "2026-09-17"
+authors:
+  - entity:
+      name: "JG Systems Consulting Ltd"
+license: "CC0-1.0"
+repository-code: "https://github.com/jgsystemsconsulting/awesome-digital-engineering"
+url: "https://github.com/jgsystemsconsulting/awesome-digital-engineering"
+preferred-citation:
+  type: generic
+  title: "Awesome Digital Engineering"
+  authors:
+    - entity:
+        name: "JG Systems Consulting Ltd"
+  year: 2026
+  repository-code: "https://github.com/jgsystemsconsulting/awesome-digital-engineering"

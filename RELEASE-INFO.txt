@@ -1,0 +1,4 @@
+Product: awesome-digital-engineering
+Version: 0.1.0
+Built: 2026-09-17T14:05:17Z
+Tag: v0.1.0

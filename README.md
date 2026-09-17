@@ -14,6 +14,41 @@ See [Editorial neutrality](CONTRIBUTING.md#7-editorial-neutrality).
 initial seed; growth in progress. Every entry below passed a live link check on launch
 day. Suggest more via issues or pull requests.
 
+## Install
+
+No install. Clone or browse the repository:
+
+```bash
+git clone https://github.com/jgsystemsconsulting/awesome-digital-engineering.git
+```
+
+Or open the README on GitHub. Part of the
+[awesome-mbse list family](https://github.com/jgsystemsconsulting/awesome-mbse/blob/main/FAMILY.md).
+
+## Usage
+
+1. Start from [Contents](#contents) and open the section that matches your question
+   (policy, standards, digital thread, MBD, consortia, tools, learning, commercial).
+2. Prefer primary sources; storefront and overview links for paywalled standards are
+   intentional (we link, we never re-host).
+3. Suggest a resource with the issue form or a PR; see [CONTRIBUTING.md](CONTRIBUTING.md).
+4. Report a malicious or hijacked link privately via [SECURITY.md](SECURITY.md).
+
+## Licence
+
+List content is dedicated to the public domain under
+[CC0 1.0 Universal](LICENSE). Linked third-party works keep their own licences.
+For commercial licensing enquiries about JG Systems Consulting products (not this
+list), see https://labs.jgsystemsconsulting.com/licensing.html.
+
+## Support
+
+- Resource suggestions: GitHub Issues (Suggest a resource form)
+- Bugs in this repository: Bug report form
+- Improvements: Improvement form
+- Security: private advisory (see SECURITY.md)
+- Maintainer: [JG Systems Consulting Ltd.](https://github.com/jgsystemsconsulting)
+
 ## Contents
 
 - [Policy and strategy](#policy-and-strategy)

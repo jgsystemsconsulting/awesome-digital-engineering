@@ -2,10 +2,17 @@
 
 All notable changes to this list are documented in this file.
 
-## 2026-09 - Launch (initial seed)
+The format is based on Keep a Changelog, and this project uses semantic versioning
+for list releases (seed content may grow without a major bump).
 
-- initial seed; growth in progress. Remaining candidates are tracked in `seed-inventory`
-  GitHub issues after launch.
-- Public repo `jgsystemsconsulting/awesome-digital-engineering` created under the
+## [Unreleased]
+
+## [0.1.0] - 2026-09-17
+
+### Added
+
+- Public launch of `jgsystemsconsulting/awesome-digital-engineering` under the
   awesome-mbse list family shared standard.
-- CI: lychee PR + weekly schedule, awesome-lint (hub pattern). No markdownlint in v1.
+- initial seed; growth in progress. Remaining candidates tracked in
+  `seed-inventory` GitHub issues.
+- CI: lychee PR + weekly schedule, awesome-lint, release validate gate.
