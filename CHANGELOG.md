@@ -7,6 +7,17 @@ for list releases (seed content may grow without a major bump).
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-09-17
+
+### Added
+
+- Expanded verified seed across policy, standards, thread, MBD, consortia, tools, and learning.
+- Canonical CC0-1.0 LICENSE text for GitHub licence detection.
+
+### Changed
+
+- Version metadata aligned to 0.1.1 (RELEASE-INFO, CITATION.cff).
+
 ## [0.1.0] - 2026-09-17
 
 ### Added

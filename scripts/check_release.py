@@ -84,14 +84,14 @@ else:
         fails.append("RELEASE-INFO.txt missing Tag: v<version>")
 
 readme = pathlib.Path("README.md").read_text(encoding="utf-8")
-for needle in ("## Install", "## Usage", "## Licence", "## Support", "labs.jgsystemsconsulting.com/licensing.html"):
-    if needle.lower() not in readme.lower() and needle not in readme:
-        # Licence section may be spelled License; accept either heading + URL
-        if needle == "## Licence" and "## License" in readme:
-            continue
-        if "licensing.html" in needle and "labs.jgsystemsconsulting.com/licensing.html" in readme:
-            continue
-        fails.append(f"README missing: {needle}")
+# Awesome-list READMEs must keep Contents first and must not ship a Licence H2 (awesome-lint).
+# RR-B-05 install/usage/support/licence-enquiry may appear as prose.
+rl = readme.lower()
+for needle in ("install", "usage", "support", "labs.jgsystemsconsulting.com/licensing.html"):
+    if needle not in rl:
+        fails.append(f"README missing required prose: {needle}")
+if "cc0" not in rl and "license" not in rl and "licence" not in rl:
+    fails.append("README missing licence mention")
 
 sec = pathlib.Path("SECURITY.md").read_text(encoding="utf-8")
 if "advisories" not in sec and "pull request" not in sec.lower():
