@@ -1,0 +1,15 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Link-checker output / local tooling
+lychee/
+.playwright-mcp/
+
+# Node (used only transiently for doctoc/awesome-lint via npx)
+node_modules/
