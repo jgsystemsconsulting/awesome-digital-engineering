@@ -2,7 +2,8 @@ name: validate
 on: [push, pull_request]
 permissions: read-all
 jobs:
-  gate:
+  validate:
+    name: validate
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
