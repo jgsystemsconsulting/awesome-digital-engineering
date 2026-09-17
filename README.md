@@ -5,7 +5,7 @@
 
 ![Last full sweep: 2026-09](https://img.shields.io/badge/last%20full%20sweep-2026--09-brightgreen)
 
-Part of the [awesome-mbse list family](https://github.com/jgsystemsconsulting/awesome-mbse/blob/main/FAMILY.md).
+Part of the awesome-mbse list family (hub repository currently private).
 Maintained by [JG Systems Consulting Ltd.](https://github.com/jgsystemsconsulting). See
 [Editorial neutrality](CONTRIBUTING.md#7-editorial-neutrality).
 
