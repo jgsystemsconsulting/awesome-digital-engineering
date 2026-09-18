@@ -86,3 +86,39 @@ see https://labs.jgsystemsconsulting.com/licensing.html.
 ## Commercial platforms
 
 _No verified entries yet._
+
+## Contributing
+
+Contributions welcome: see [CONTRIBUTING.md](CONTRIBUTING.md) for the inclusion bar,
+entry format, and tag vocabulary.
+
+## Install
+
+Nothing to install. This list is a curated index: browse it here on GitHub,
+or clone it:
+
+```bash
+git clone https://github.com/jgsystemsconsulting/awesome-digital-engineering.git
+```
+
+## Usage
+
+1. Open the Contents at the top and jump to a section, or search the page with
+   your browser's find function.
+2. Open any entry's link to reach the upstream resource; the list never
+   re-hosts content.
+3. To suggest a resource or report a defect, use the Support channels below
+   (or open a pull request that follows CONTRIBUTING.md).
+
+## Support
+
+- Bug or dead link: [bug report form](https://github.com/jgsystemsconsulting/awesome-digital-engineering/issues/new?template=bug_report.yml)
+- Suggest a resource (the list's improvement channel):
+  [suggestion form](https://github.com/jgsystemsconsulting/awesome-digital-engineering/issues/new?template=suggest-resource.yml)
+- Security issues: [private security advisory](https://github.com/jgsystemsconsulting/awesome-digital-engineering/security/advisories/new)
+  (see [SECURITY.md](SECURITY.md))
+
+## Version
+
+Current release: **0.1.1** (2026-09-17). See [CHANGELOG.md](CHANGELOG.md) and
+[RELEASE-INFO.txt](RELEASE-INFO.txt).
