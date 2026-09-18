@@ -27,7 +27,7 @@ and 44px targets already meet the outcome bar.
 | name | landing-truth-gate |
 | size | S |
 | deps | none |
-| status | ready |
+| status | done |
 | promoted_ids | [] |
 | corroboration | 3 (value, risk, cohesion) |
 | first_prompt | `/superpowers-process full landing truth gate` |
