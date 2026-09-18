@@ -17,3 +17,6 @@ release-notes.generated.md
 
 # Maintainer-only (RR-B-35)
 scripts/add_headers.py
+# Local SA / link-check artifacts
+docs/superpowers/sa-audit-*.json
+sa-audit-*.json

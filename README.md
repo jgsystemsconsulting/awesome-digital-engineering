@@ -1,5 +1,11 @@
 # Awesome Digital Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<p align="right">
+  <a href="https://jgsystemsconsulting.github.io/awesome-digital-engineering/">
+    <img src="media/logo.svg" width="256" alt="list mark">
+  </a>
+</p>
+
 > Curated resources for **digital engineering** transformation: digital thread, model-based
 > definition (MBD), and the policy and standards that bind them.
 

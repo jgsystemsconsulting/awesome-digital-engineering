@@ -21,7 +21,7 @@ REQUIRED = [
     "CODE_OF_CONDUCT.md",
     ".gitignore",
     "docs/DISTRIBUTION.md",
-    "docs/index.html",
+    "docs/index.html", "docs/MATURITY.md",
     ".github/workflows/link-check-pr.yml",
     ".github/workflows/link-check-schedule.yml",
     ".github/workflows/validate.yml",

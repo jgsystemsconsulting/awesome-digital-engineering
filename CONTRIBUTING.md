@@ -1,5 +1,8 @@
 # Contributing to Awesome Digital Engineering
 
+
+**Lint is mandatory.** awesome-lint on README.md must pass on every push/PR to main. See [docs/MATURITY.md](docs/MATURITY.md).
+
 Thanks for helping keep this list accurate and useful.
 
 ## 1. How to contribute
