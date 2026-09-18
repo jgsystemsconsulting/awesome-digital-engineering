@@ -67,7 +67,7 @@ so two packages do not touch the ledger.
 | name | org-catalogue-entry |
 | size | M |
 | deps | P1 |
-| status | ready |
+| status | done |
 | promoted_ids | [] |
 | corroboration | 3 (value, risk, cohesion) |
 | first_prompt | `/superpowers-process full org catalogue entry` |
@@ -103,7 +103,7 @@ write-up body (P3).
 | name | awesome-acceptability-assessment |
 | size | S |
 | deps | P1 |
-| status | ready |
+| status | done |
 | promoted_ids | [] |
 | corroboration | 3 (value, risk, cohesion) |
 | first_prompt | `/superpowers-process full awesome acceptability assessment` |
@@ -139,7 +139,7 @@ payoff without blocking landing fixes.
 | name | link-check-product-surface |
 | size | S |
 | deps | P1 |
-| status | ready |
+| status | done |
 | promoted_ids | [] |
 | corroboration | 3 (value, risk, cohesion) |
 | first_prompt | `/superpowers-process full landing link check coverage` |
@@ -175,7 +175,7 @@ owns workflow args and fail policy.
 | name | pin-validate-setup-python |
 | size | M |
 | deps | none |
-| status | ready |
+| status | done |
 | promoted_ids | [] |
 | corroboration | 3 (value, risk, cohesion) |
 | first_prompt | `/superpowers-process full pin validate setup python` |

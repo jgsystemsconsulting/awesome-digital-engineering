@@ -7,6 +7,7 @@ on:
   pull_request:
     paths:
       - "README.md"
+      - "docs/index.html"
       - ".lycheeignore"
       - ".github/workflows/link-check-pr.yml"
 
@@ -21,7 +22,7 @@ jobs:
   lychee:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Check links and in-doc anchors
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # master w/ nested-tarball install fix (>v2.8.0)
         with:
@@ -36,6 +37,7 @@ jobs:
             --accept 200..=299,429
             --no-progress
             README.md
+            docs/index.html
           fail: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -47,8 +49,8 @@ jobs:
   awesome-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: "20"
       - name: Awesome-list manifest conformance

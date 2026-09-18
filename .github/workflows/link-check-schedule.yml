@@ -16,7 +16,7 @@ jobs:
   link-rot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Check links (report only, never fail)
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # master w/ nested-tarball install fix (>v2.8.0)
@@ -28,6 +28,7 @@ jobs:
             --accept 200..=299,429
             --no-progress
             README.md
+            docs/index.html
           fail: false
           output: ./lychee/out.md
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -45,7 +46,7 @@ jobs:
           done
 
       - name: Open this week's link-rot report
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd # v5
         with:
           title: "Weekly link-rot report"
           content-filepath: ./lychee/out.md
