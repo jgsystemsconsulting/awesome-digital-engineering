@@ -33,6 +33,10 @@ see https://labs.jgsystemsconsulting.com/licensing.html.
 - [Open tools and reference implementations](#open-tools-and-reference-implementations)
 - [Learning and reports](#learning-and-reports)
 - [Commercial platforms](#commercial-platforms)
+- [Install](#install)
+- [Usage](#usage)
+- [Support](#support)
+- [Version](#version)
 
 ## Policy and strategy
 
@@ -123,9 +127,8 @@ git clone https://github.com/jgsystemsconsulting/awesome-digital-engineering.git
 
 ## Version
 
+The curated list content is dedicated to the public domain under **CC0-1.0** (see [LICENSE](LICENSE) and [NOTICE](NOTICE)). Linked upstream resources remain under their own licences. Commercial or academic licence enquiries go through the JG Systems licensing page.
+
 Current release: **0.1.1** (2026-09-17). See [CHANGELOG.md](CHANGELOG.md) and
 [RELEASE-INFO.txt](RELEASE-INFO.txt).
 
-## Licence
-
-The curated list content is dedicated to the public domain under **CC0-1.0** (see [LICENSE](LICENSE) and [NOTICE](NOTICE)). Linked upstream resources remain under their own licences. No purchase or licence key is needed to use this list; for commercial questions, see [labs.jgsystemsconsulting.com/licensing.html](https://labs.jgsystemsconsulting.com/licensing.html).
