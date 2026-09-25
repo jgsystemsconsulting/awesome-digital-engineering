@@ -1,0 +1,82 @@
+{
+  "display_name": "Awesome Digital Engineering",
+  "page_title": "Awesome Digital Engineering: curated resources for the digital engineering transformation",
+  "doc_id": "JGS-AWE-DE",
+  "rev": "0.1.1",
+  "classification": "PUBLIC",
+  "licence_label": "CC0-1.0",
+  "author_org": "JG Systems Consulting Ltd",
+  "repo_url": "https://github.com/jgsystemsconsulting/awesome-digital-engineering",
+  "pages_base": "https://jgsystemsconsulting.github.io/awesome-digital-engineering",
+  "license_url": "https://github.com/jgsystemsconsulting/awesome-digital-engineering/blob/main/LICENSE",
+  "og_description": "Curated digital engineering resources: digital thread, MBD, and the policy and standards that bind them.",
+  "hero_lead": "Curated digital engineering resources: digital thread, MBD, and the policy and standards that bind them.",
+  "hero_sub": "Open the full list on GitHub for searchable Contents, then jump to the section that matches your work.",
+  "ctas": "<a class=\"btn btn-primary\" href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/blob/main/README.md\">Open full list <span aria-hidden=\"true\">&rarr;</span></a>\n    <a class=\"btn btn-ghost\" href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering\">View on GitHub <span aria-hidden=\"true\">&rarr;</span></a>",
+  "sections": [
+    {
+      "id": "evidence",
+      "num": "01",
+      "label": "Status",
+      "heading": "Status",
+      "html": "<dl class=\"chips\">\n          <div class=\"chip\">\n            <dt>version</dt>\n            <dd>0.1.1</dd>\n          </div>\n          <div class=\"chip\">\n            <dt>sweep</dt>\n            <dd>2026-09</dd>\n          </div>\n          <div class=\"chip\">\n            <dt>entries</dt>\n            <dd>31</dd>\n          </div>\n        </dl>\n        <p class=\"family\">Part of the awesome-mbse list family.</p>"
+    },
+    {
+      "id": "sections",
+      "num": "02",
+      "label": "Sections",
+      "heading": "Sections",
+      "html": "<p class=\"muted lead\">Eight README anchors. Open a section on GitHub.</p>\n        <ul class=\"section-index\">\n          <li><a href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/blob/main/README.md#policy-and-strategy\">Policy and strategy</a></li>\n          <li><a href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/blob/main/README.md#standards\">Standards</a></li>\n          <li><a href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/blob/main/README.md#digital-thread-and-interoperability\">Digital thread and interoperability</a></li>\n          <li><a href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/blob/main/README.md#model-based-definition-and-pmi\">Model-based definition and PMI</a></li>\n          <li><a href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/blob/main/README.md#government-and-consortia-programs\">Government and consortia programs</a></li>\n          <li><a href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/blob/main/README.md#open-tools-and-reference-implementations\">Open tools and reference implementations</a></li>\n          <li><a href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/blob/main/README.md#learning-and-reports\">Learning and reports</a></li>\n          <li><a href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/blob/main/README.md#commercial-platforms\">Commercial platforms</a></li>\n        </ul>"
+    },
+    {
+      "id": "curation",
+      "num": "03",
+      "label": "Curation",
+      "heading": "Curation",
+      "html": "<p class=\"lead\">Public-domain (CC0) curated index of digital engineering resources: digital thread, model-based definition (MBD), and the policy and standards that bind them. Nothing to install. The list does not re-host upstream content; follow each link to the source.</p>"
+    },
+    {
+      "id": "contribute",
+      "num": "04",
+      "label": "Contribute",
+      "heading": "Contribute",
+      "html": "<p class=\"muted lead\">Suggest a resource or report a dead link via the repository issue forms.</p>\n        <ul class=\"link-list\">\n          <li><a href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/blob/main/CONTRIBUTING.md\">How to contribute</a></li>\n          <li><a href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/issues/new?template=suggest-resource.yml\">Suggest a resource</a></li>\n          <li><a href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/issues/new?template=bug_report.yml\">Report a bug or dead link</a></li>\n        </ul>"
+    }
+  ],
+  "footer_cells": {
+    "product": "awesome-digital-engineering",
+    "rev": "0.1.1",
+    "licence": "CC0-1.0",
+    "repository": "jgsystemsconsulting/awesome-digital-engineering",
+    "engine": "jgs-site-template",
+    "owner": "JG Systems Consulting Ltd"
+  },
+  "footer_note": "Licence: <a href=\"https://github.com/jgsystemsconsulting/awesome-digital-engineering/blob/main/LICENSE\">CC0-1.0</a>. <a href=\"https://labs.jgsystemsconsulting.com/licensing.html\">Licence enquiries</a>. Maintained by JG Systems Consulting Ltd.",
+  "card": {
+    "kicker": "Curated index",
+    "sub": "Digital thread, MBD, and the policy and standards that bind them.",
+    "chips": [
+      "digital thread",
+      "MBD / PMI",
+      "policy + standards",
+      "31 entries"
+    ],
+    "facts": [
+      {
+        "t": "8 sections",
+        "d": "policy through commercial platforms"
+      },
+      {
+        "t": "31 entries",
+        "d": "last full sweep 2026-09"
+      },
+      {
+        "t": "CC0-1.0",
+        "d": "list text; linked works keep own terms"
+      }
+    ],
+    "lic_note": "list text is CC0-1.0; linked works keep their own terms"
+  },
+  "qr_url": "https://github.com/jgsystemsconsulting/awesome-digital-engineering",
+  "tagline": "Curated digital engineering resources: digital thread, MBD, and the policy and standards that bind them."
+}
